@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotalar | Galaksi Turizm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">GALAKSİ TURİZM 🚀</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Ana Üs</a></li>
+            <li><a href="rotalar.html" class="active">Rotalar</a></li>
+            <li><a href="iletisim.html">Rezervasyon</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>POPÜLER DESTİNASYONLAR</h2>
+        <p>Sıradan plaj tatillerinden sıkılmadınız mı?</p>
+        
+        <div class="grid">
+            <div class="planet-card">
+                <div class="planet-icon">🌕</div>
+                <h3>AY (The Moon)</h3>
+                <p>Kratere karşı 5 çayı keyfi.</p>
+                <button onclick="fiyatHesapla('Ay')">Fiyat Gör</button>
+            </div>
+
+            <div class="planet-card">
+                <div class="planet-icon">🪐</div>
+                <h3>MARS</h3>
+                <p>Kızıl gezegende doğa yürüyüşü.</p>
+                <button onclick="fiyatHesapla('Mars')">Fiyat Gör</button>
+            </div>
+
+            <div class="planet-card">
+                <div class="planet-icon">🌌</div>
+                <h3>TİTAN</h3>
+                <p>Satürn'ün halkalarını yakından görün.</p>
+                <button onclick="fiyatHesapla('Titan')">Fiyat Gör</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>GALAKSİ TURİZM A.Ş. &copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
