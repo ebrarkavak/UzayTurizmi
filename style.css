@@ -1,0 +1,139 @@
+/* Genel Ayarlar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Uzay havası için */
+    background-color: #0b0d17; /* Uzay siyahı */
+    color: #d0d6f9; /* Hafif buz mavisi yazı */
+    text-align: center;
+}
+
+/* Navigasyon (Menü) */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.05); /* Cam efekti */
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #00e5ff; /* Neon mavi */
+    border-bottom: 2px solid #00e5ff;
+}
+
+/* Hero Bölümü (Kocaman Başlık) */
+.hero {
+    padding: 100px 20px;
+    background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 10px #00e5ff;
+}
+
+h2 {
+    color: #00e5ff;
+}
+
+/* Kartlar ve Kutular */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.planet-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.planet-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+    border-color: #00e5ff;
+}
+
+.planet-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    background: transparent;
+    border: 1px solid #00e5ff;
+    color: white;
+    font-family: inherit;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #0b0d17;
+    border: none;
+    border-radius: 50px; /* Yuvarlak buton */
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 30px #fff;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 50px;
+}
