@@ -20,9 +20,8 @@ const form = document.getElementById('spaceForm');
 
 if (form) {
     form.addEventListener('submit', function(e) {
-        e.preventDefault(); // Sayfa yenilenmesin
+        e.preventDefault();
         
-        // Basit bir yükleniyor efekti verelim
         const btn = form.querySelector('button');
         const orjinalYazi = btn.innerText;
         
