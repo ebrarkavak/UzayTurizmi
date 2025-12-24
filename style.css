@@ -50,7 +50,7 @@ nav {
     border-bottom: 2px solid #00e5ff;
 }
 
-/* Hero Bölümü (Kocaman Başlık) */
+/* Hero Bölümü */
 .hero {
     padding: 100px 20px;
     background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
@@ -118,7 +118,7 @@ button {
     background-color: #fff;
     color: #0b0d17;
     border: none;
-    border-radius: 50px; /* Yuvarlak buton */
+    border-radius: 50px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
